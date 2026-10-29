@@ -1,0 +1,258 @@
+{
+ "n_lines": 38,
+ "y0_line": 0,
+ "special_pair": [
+  35,
+  36
+ ],
+ "r_line": 37,
+ "node": "+tan(7pi/18)",
+ "labels": {
+  "1": "-tan(17pi/36)",
+  "2": "-tan(8pi/18)",
+  "3": "-tan(15pi/36)",
+  "4": "-tan(7pi/18)",
+  "5": "-tan(13pi/36)",
+  "6": "-tan(6pi/18)",
+  "7": "-tan(11pi/36)",
+  "8": "-tan(5pi/18)",
+  "9": "-tan(9pi/36)",
+  "10": "-tan(4pi/18)",
+  "11": "-tan(7pi/36)",
+  "12": "-tan(3pi/18)",
+  "13": "-tan(5pi/36)",
+  "14": "-tan(2pi/18)",
+  "15": "-tan(3pi/36)",
+  "16": "-tan(1pi/18)",
+  "17": "-tan(1pi/36)",
+  "18": "+tan(1pi/36)",
+  "19": "+tan(1pi/18)",
+  "20": "+tan(3pi/36)",
+  "21": "+tan(2pi/18)",
+  "22": "+tan(5pi/36)",
+  "23": "+tan(3pi/18)",
+  "24": "+tan(7pi/36)",
+  "25": "+tan(4pi/18)",
+  "26": "+tan(9pi/36)",
+  "27": "+tan(5pi/18)",
+  "28": "+tan(11pi/36)",
+  "29": "+tan(6pi/18)",
+  "30": "+tan(13pi/36)",
+  "31": "+tan(7pi/18)",
+  "32": "+tan(15pi/36)",
+  "33": "+tan(8pi/18)",
+  "34": "+tan(17pi/36)",
+  "35": "-epsilon",
+  "36": "+epsilon",
+  "37": "+tan(7pi/18)-delta"
+ },
+ "dependent_slopes": [
+  {
+   "line": 23,
+   "through": [
+    2,
+    33
+   ]
+  },
+  {
+   "line": 29,
+   "through": [
+    33,
+    12
+   ]
+  },
+  {
+   "line": 16,
+   "through": [
+    4,
+    29
+   ]
+  },
+  {
+   "line": 25,
+   "through": [
+    8,
+    29
+   ]
+  }
+ ],
+ "parameters": {
+  "epsilon": [
+   "0",
+   "1/10000"
+  ],
+  "delta": [
+   "0",
+   "1/100000000000000000000"
+  ]
+ },
+ "corner_of_lines_csv": {
+  "epsilon": "1/10000",
+  "delta": "1/100000000000000000000"
+ },
+ "line_at_infinity": "L_inf: the line at infinity of this (BBL) chart is a line of the arrangement",
+ "counting_chart": "R at infinity: a3 = p3 - p3(R)",
+ "requirements": [
+  "a3_equals_bound",
+  "D1",
+  "D2",
+  "D3",
+  "W1",
+  "W1_prime",
+  "slope_L_n_minus_2_negative",
+  "slope_L1_positive",
+  "node_right_triangle_above",
+  "wedge_apices_simple"
+ ],
+ "layout": "0 = Y_0; 1..n-2 = grid lines L_1..L_{n-2} by increasing x-intercept; n-1 = L_{n-1} (-epsilon), n = L_n (+epsilon); n+1 = R",
+ "bbl_lines": [
+  {
+   "line": 1,
+   "j": 1,
+   "n": 18,
+   "sigma": -1,
+   "m_min_line": 2
+  },
+  {
+   "line": 3,
+   "j": 2,
+   "n": 18,
+   "sigma": -1,
+   "m_min_line": 2
+  },
+  {
+   "line": 5,
+   "j": 3,
+   "n": 18,
+   "sigma": -1,
+   "m_min_line": 2
+  },
+  {
+   "line": 7,
+   "j": 4,
+   "n": 18,
+   "sigma": -1,
+   "m_min_line": 2
+  },
+  {
+   "line": 9,
+   "j": 5,
+   "n": 18,
+   "sigma": -1,
+   "m_min_line": 2
+  },
+  {
+   "line": 11,
+   "j": 6,
+   "n": 18,
+   "sigma": -1,
+   "m_min_line": 2
+  },
+  {
+   "line": 13,
+   "j": 7,
+   "n": 18,
+   "sigma": -1,
+   "m_min_line": 2
+  },
+  {
+   "line": 15,
+   "j": 8,
+   "n": 18,
+   "sigma": -1,
+   "m_min_line": 2
+  },
+  {
+   "line": 17,
+   "j": 9,
+   "n": 18,
+   "sigma": -1,
+   "m_min_line": 2
+  },
+  {
+   "line": 18,
+   "j": 10,
+   "n": 18,
+   "sigma": -1,
+   "m_min_line": 2
+  },
+  {
+   "line": 20,
+   "j": 11,
+   "n": 18,
+   "sigma": -1,
+   "m_min_line": 2
+  },
+  {
+   "line": 22,
+   "j": 12,
+   "n": 18,
+   "sigma": -1,
+   "m_min_line": 2
+  },
+  {
+   "line": 24,
+   "j": 13,
+   "n": 18,
+   "sigma": -1,
+   "m_min_line": 2
+  },
+  {
+   "line": 26,
+   "j": 14,
+   "n": 18,
+   "sigma": -1,
+   "m_min_line": 2
+  },
+  {
+   "line": 28,
+   "j": 15,
+   "n": 18,
+   "sigma": -1,
+   "m_min_line": 2
+  },
+  {
+   "line": 30,
+   "j": 16,
+   "n": 18,
+   "sigma": -1,
+   "m_min_line": 2
+  },
+  {
+   "line": 32,
+   "j": 17,
+   "n": 18,
+   "sigma": -1,
+   "m_min_line": 2
+  },
+  {
+   "line": 34,
+   "j": 18,
+   "n": 18,
+   "sigma": -1,
+   "m_min_line": 2
+  }
+ ],
+ "parent_index": {
+  "0": 0,
+  "2": 1,
+  "4": 2,
+  "6": 3,
+  "8": 4,
+  "10": 5,
+  "12": 6,
+  "14": 7,
+  "16": 8,
+  "19": 9,
+  "21": 10,
+  "23": 11,
+  "25": 12,
+  "27": 13,
+  "29": 14,
+  "31": 15,
+  "33": 16,
+  "35": 17,
+  "36": 18,
+  "37": 19
+ }
+}
