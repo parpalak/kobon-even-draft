@@ -1,0 +1,2 @@
+multenum n=14 K>=54 zone=all flags=pruning=256M,no-table,first-fixed,rcut
+PREFIXES n=14 K>=54 zone=all flags=pruning=256M,no-table,first-fixed,rcut: nodes=1397961 words=0 time=1s prefixes=738831 doom-cuts=1557 segment-cuts=63469 rcut-cuts=381489 rcut-recomputed=1870789 lemma-violations=0/0/0
